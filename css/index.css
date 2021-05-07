@@ -51,6 +51,7 @@ body {
 }
 .cards img {
   width: inherit;
+  height: 200px;
 }
 .cards > .btn {
   text-decoration: none;
