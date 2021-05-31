@@ -1,0 +1,56 @@
+.cards {
+  width: 250px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  text-align: left;
+}
+.btn {
+  background-color: cornflowerblue;
+  padding: 5px;
+  color: #f1f1f1;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.cards img {
+  width: inherit;
+  height: 200px;
+}
+.cards > .btn {
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+  margin-top: 20px;
+}
+.image img {
+  width: 250px;
+  height: 200px;
+  transition: 5s;
+}
+.images .image p {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: blue;
+  font-family: sans-serif;
+}
+.image img:hover {
+  transition: all;
+  opacity: 0.5;
+  background: yellowgreen;
+}
+figcaption {
+}
+#underline span {
+  text-decoration: underline;
+}

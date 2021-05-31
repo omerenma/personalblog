@@ -1,0 +1,9 @@
+@import "./container.css";
+@import "./header.css";
+@import "./content.css";
+@import "./footer.css";
+@import "./blog.css";
+@import "./query.css";
+body {
+  margin: 0;
+}

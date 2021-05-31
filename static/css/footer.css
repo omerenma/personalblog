@@ -1,0 +1,6 @@
+.footer {
+  grid-column: 1/4;
+  background: brown;
+  text-align: center;
+  color: #fffff8;
+}
